@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Portfolio Website using HTML,CSS & Javascript</title>
+        <link rel="stylesheet" href="main_2.css">
+        <script src="main_2.js"></script>
+        <script src="https://kit.fontawesome.com/dde5be82bb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="final_logo.png" class="logo" alt="Manan Dharia" >
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#serivces">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>The Technique Guy!! </p>
+                    <h1>&#128075 Hello,I'm <span> Manan Dharia</span>.<br>&#128077 Thank You to reach me out!!</h1>
+                    
+
+                </div>
+            </div>
+        </div>
+        <!-- About Section -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="PXL_20220430_120219466.PORTRAIT.jpg" alt="---My Image---">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me : </h1>
+                        <p style="font-size:20px;">I'm third(3<sup>rd</sup>) year student. Pursuing B.Tech( Information Technology ) on going!  </p>
+                    
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C , Python & Java language</span><br>-->Medium level Programming </li>
+                                <li><span>Front-End Development</span><br>--> HTML , CSS , Javascript & NodeJS</li>
+                                <li><span>Back-End Development</span><br>--> PHP using Laravel framework</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>July 2022 - Current</span><br>-->Intern as Web Development & Designing 
+                                    at Oasis Infobyte</li>
+                                    <li><span>29th April to 1st May</span><br>-->Took Part in 36-Hours Hackathon at SVIT,Vasad and won challege for the best use of Auth0 </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>From 2020 - 2024 </span><br>-->Bachelor's Degree(B.Tech) in Information Technology</li>
+                            </ul>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service Section -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Acheivements : </h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Programming with Python Course Certificate </h2>
+                        <p>Learned Basics Topics and some advanced to topics(Like connecting Python With SQL database)</p>
+                        <a href="https://trainings.internshala.com/view_certificate/58714DE5-F8F9-D9CA-CB6C-C9EDB1C917A4/C1611BA2-CA50-F7E3-8759-E2DC6B12D574/">Show Certificate</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lines-leaning"></i>
+                        <!-- <i class="fa-regular fa-chalkboard-user"></i> -->
+                        <h2>PHP Course Certificate </h2>
+                        <p>Learn how Web Application work from user's device and how it is important to validate user's data before storing into the database</p>
+                        <a href="https://www.sololearn.com/Certificate/1059-23315711/jpg/">Show Certificate</a>
+                    </div>
+                    <div>
+                        <!-- <i class="fa-regular fa-laptop-code"></i> -->
+                        <i class="fa-brands fa-leanpub"></i>
+                        <h2>Machine Learning Workshop</h2>
+                        <p>Learn how the machine learning technology work in real life and how it works .</p>
+                        <a href="https://drive.google.com/file/d/1erl3tzXMaVhjE56kghcNIumHZ_K33Z1L/view">Show Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Section -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me : </h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>manandharia07@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile-screen"></i>ABCDEFGHIJ</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/manandharia07"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://twitter.com/manan_dharia?t=AttArJdLNOrF_4RNJv2ZwA&s=08"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://instagram.com/manan_dharia?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/manan-dharia-661313200"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="#" class="btn btn2">Download CV</a>
+                    
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2022 © Manan Dharia . Made with <i class="fa-solid fa-heart"></i> </p>
+            </div>
+
+        </div>
+    </body>
+
+</html>
