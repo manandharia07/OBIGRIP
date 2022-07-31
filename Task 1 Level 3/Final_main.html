@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Temperature Converter using HTML,CSS & JavaScript</title>
+        <link rel="stylesheet" href="Final_css.css">
+        <script src="Final_script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="heading">Temperature Converter</header>
+            <form name="form">
+                <div class="calculate_inputs">
+                    <div class="calculate_value">
+                        <label>Enter Temperature Value Here: </label>
+                        <input type="text" placeholder="Value" name="value" id="input_value">
+                    </div>
+                    <div class="inputs">
+                        <div class="calculate_input">
+                        <label>From:</label>
+                        <select name="input_temp" id="input_temp">
+                            <option value="celsius">Celsius(°C)</option>
+                            <option value="fahrenheit">Fahrenheit(°F)</option>
+                            <option value="kelvin">Kelvin(K)</option>
+                        </select>
+                        </div>
+                        <div class="calculate_output">
+                        <label >To: </label>
+                        <select name="output_temp" id="output_temp">
+                            <option value="celsius">Celsius(°C)</option>
+                            <option value="fahrenheit">Fahrenheit(°F)</option>
+                            <option value="kelvin">Kelvin(K)</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="result_area">
+                    <label for="">Result:</label>
+                    <br>
+                    <input type="text"  id="show_result" placeholder="Check Here for Result" >
+                </div>
+                <!-- <br> -->
+                <center><button type="button" id="convert" class="calculate_button" onclick="function_Temp()" >Convert</button></center>
+            </form>
+        </div>
+    </body>
+</html>

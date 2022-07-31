@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+*{
+    margin: 2px;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-size: 25.5px;
+    /* color: #00bfff; */
+}
+
+body{
+    height: 98vh ;
+    background-color:  #5ca7c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header.heading{
+        font-size:30px ;
+        text-align:center;
+        background-color: #00bfff;
+        color:white ;
+        border-radius: 5px;
+        border: 6px double #00bfff;
+}
+
+#input_value{
+    width:86.5px;
+    text-align: center;
+}
+#show_result{
+    width:100%;
+    text-align: center;
+}
+
+
+div.container{
+    color: #00bfff;
+    width: 550px;
+    background-color: #fff;
+    padding: 70px 50px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+    border: 4px double;
+    border-color: #52bac1;
+    border-radius:8px;
+    /* display:flex; */
+    justify-content: space-between; 
+}
+div.calculate_output{
+    /* position: relative;
+    left: 60%;
+    bottom:57.5px; */
+    margin-left:32.5px ;
+}
+#convert
+{
+    color:white;
+    background-color:  #00bfff;
+    width: 100px;
+    text-align: center;
+    border-color: #00bfff;
+    border-radius: 10px;
+    margin-top: 14px;
+    
+}
